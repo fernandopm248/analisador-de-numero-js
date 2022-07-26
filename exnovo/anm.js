@@ -8,7 +8,7 @@ let exibicao4 = document.getElementById('res4')
 let historico = document.getElementById('anali')
 function analise(){
    if (etr.value.length==0||etr.value < 0 || etr.value > 100){
-  alert('tu é burro')    
+  alert('numero invalido, são permitidos apenas numeros entre 0 e 100')    
    }else {
 let ultimo_valor=document.createElement('option')
 ultimo_valor.text = `valor ${etr.value} adicionado `
